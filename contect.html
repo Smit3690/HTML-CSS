@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <tr style="height: 70px;width: 100%;background-color:  rgb(80, 170, 255);">
+            <td colspan="2">
+                &nbsp;&nbsp; <a style="color:white"
+                    href="mailto:thakkarskitchen@gmail.com">thakkarskitchen@gmail.com</a> &nbsp;&nbsp;
+
+
+                <a style="color:white" href="tel:918780656929">+91 8780656929</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook" style="color: white;"></i></a>
+            </td>
+        </tr>
+        <tr style="height: 130px;width: 100%;">
+            <td colspan="2">
+                &nbsp;&nbsp;<a href="index.html">Home</a> &nbsp;&nbsp;
+                <a href="products.html">Products</a> &nbsp;&nbsp;
+
+                <a href="about.html">About</a> &nbsp;&nbsp;
+
+                <a href="contact.html">Contact</a> &nbsp;&nbsp;
+
+
+
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%;">
+                <div style="width: 100%">
+                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ambawadi%20+(Coffee%20byus)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+            </td>
+            <td>
+                <form enctype="multipart/form-data" method="post" action="login.html">
+                    <table border="5" style="width: 100%;">
+                        <tr style="width: 100%;">
+                            <td>Name</td>
+                            <td><input type="text" name="name" id="name" style="width: 100%;" required
+                                    pattern="[A-Za-z]{3,20}">
+                            </td>
+
+
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Email</label></td>
+                            <td><input type="email" name="email" id="email" style="width: 100%;"
+                                    placeholder="Enter Email" required></td>
+
+
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Password</label></td>
+                            <td><input type="password" name="password" id="password" style="width: 100%;"
+                                    placeholder="Enter Password" minlength="6" maxlength="20"></td>
+
+
+                        </tr>
+                        <tr style="width: 100%;">
+                            <td><label>Number</label></td>
+                            <td><input type="number" name="contact" id="contact" style="width: 100%;"
+                                    placeholder="Enter Contact"></td>
+
+
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>City</label></td>
+                            <td>
+                                <select id="city" name="city">
+                                    <option value="ahmedabad" selected>Ahmedabad</option>
+                                    <option value="surat">Surat</option>
+                                    <option value="rajkot">Rajkot</option>
+
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Course</label></td>
+                            <td>
+                                <select id="course" name="course" multiple>
+                                    <option value="php">php</option>
+                                    <option value="react" selected>react</option>
+                                    <option value="node">node</option>
+
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Address</label></td>
+                            <td>
+                                <textarea cols="40" rows="15" id="address" name="address">
+
+                            </textarea>
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Image</label></td>
+                            <td>
+                                <input type="file" name="image" id="image" multiple>
+                            </td>
+                        </tr>
+
+
+                        <tr style="width: 100%;">
+                            <td><label>Gender</label></td>
+                            <td>
+                                <input type="radio" name="gender" id="gender">Male
+                                <input type="radio" name="gender" id="gender">Female
+
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Hobby</label></td>
+                            <td>
+                                <input type="checkbox" name="hb" id="hb"checked>Cricket
+                                <input type="checkbox" name="hb" id="hb">Traveling
+                                <input type="checkbox" name="hb" id="hb">Painting
+
+
+                            </td>
+                        </tr>
+
+
+                        <tr style="width: 100%;">
+                            <td><label>Color</label></td>
+                            <td>
+                                <input type="color" name="color" id="color">
+
+
+
+                            </td>
+                        </tr>
+
+
+                        <tr style="width: 100%;">
+                            <td><label>BOD</label></td>
+                            <td>
+                                <input type="date" name="date" id="date" min="2024-02-13" max="2024-02-17">
+
+
+
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Time</label></td>
+                            <td>
+                                <input type="time" name="time" id="time">
+
+
+
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Week</label></td>
+                            <td>
+                                <input type="week" name="week" id="week">
+
+
+
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Website</label></td>
+                            <td>
+                                <input type="url" name="url" id="url">
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Range</label></td>
+                            <td>
+                                <input type="range" name="range" id="range">
+                            </td>
+                        </tr>
+
+                        <tr style="width: 100%;">
+                            <td><label>Action</label></td>
+                            <td>
+                                <input type="submit" name="submit" id="submit">
+                                <input type="reset" name="reset" id="reset">
+
+
+
+
+                            </td>
+                        </tr>
+
+
+
+
+
+
+                    </table>
+                </form>
+
+            </td>
+        </tr>
+
+
+        <tr style="height: 150px;width: 100%;background-color: chocolate;">
+            <td colspan="4">
+                <center>
+                    2024 thakkar's kitchen
+                </center>
+            </td>
+        </tr>
+
+
+
+
+    </table>
+</body>
+
+</html>
